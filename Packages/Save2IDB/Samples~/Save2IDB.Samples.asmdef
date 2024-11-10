@@ -1,0 +1,18 @@
+{
+    "name": "Save2IDB.Samples",
+    "rootNamespace": "Save2IDB.Samples",
+    "references": [
+        "GUID:244cc7d3a2211634b863130f45ae0aab",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:c685d05731421f64287ad6d13be5af0e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

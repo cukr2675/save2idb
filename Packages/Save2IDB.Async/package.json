@@ -1,0 +1,24 @@
+{
+  "name": "jp.cukr2675.save2idb-async",
+  "displayName": "Save2IDB.Async",
+  "author": {
+    "name": "CUKR2675",
+    "url": "https://github.com/cukr2675"
+  },
+  "version": "0.1.0-alpha",
+  "unity": "2022.3",
+  "description": "Provides a wrapper of System.IO.FileStream for WebGL build.\n\n\nRequired packages:\n\n- System.Runtime.CompilerServices.Unsafe (NuGet)\n\n- UniTask (git)\nhttps://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+  "documentationUrl": "https://github.com/cukr2675/save2idb",
+  "changelogUrl": "https://github.com/cukr2675/save2idb/releases",
+  "licensesUrl": "https://github.com/cukr2675/save2idb/blob/main/LICENSE",
+  "keywords": [
+    "webgl"
+  ],
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Sample scene.",
+      "path": "Samples~"
+    }
+  ]
+}

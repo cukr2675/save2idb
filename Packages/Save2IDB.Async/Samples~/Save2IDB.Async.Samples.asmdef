@@ -1,0 +1,19 @@
+{
+    "name": "Save2IDB.Async.Samples",
+    "rootNamespace": "Save2IDB.Async.Samples",
+    "references": [
+        "GUID:0019e84f1490ead43a64d6da4cde97b0",
+        "GUID:bb8ca1058623a3143aa2897466341102",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:049f3c72f8ed23c45a60c68a500728dd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
