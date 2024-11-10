@@ -5,7 +5,7 @@
     "name": "CUKR2675",
     "url": "https://github.com/cukr2675"
   },
-  "version": "0.1.0-alpha",
+  "version": "1.0.0",
   "unity": "2022.3",
   "description": "Provides a wrapper of System.IO.FileStream for WebGL build.\n\n\nRequired packages:\n\n- System.Runtime.CompilerServices.Unsafe (NuGet)",
   "documentationUrl": "https://github.com/cukr2675/save2idb",
