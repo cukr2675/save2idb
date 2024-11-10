@@ -1,0 +1,14 @@
+{
+  "name": "Save2IDB",
+  "short_name": "Save2IDB",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#aaa",
+  "background_color": "#231F20"
+}
