@@ -82,7 +82,7 @@ namespace Save2IDB
         public static IDBImporter ToFile(string path, bool overwrite = false)
         {
             if (string.IsNullOrEmpty(path)) throw new System.ArgumentException($"{nameof(path)} is null or empty.", nameof(path));
-            if (Path.GetDirectoryName(path) != "/" && !Directory.Exists(path)) throw new DirectoryNotFoundException(
+            if (Path.GetDirectoryName(path) != "/" && !Directory.Exists(Path.GetDirectoryName(path))) throw new DirectoryNotFoundException(
                 $"Could not find a part of the path {Path.GetFullPath(path)}.");
             if (path.EndsWith('/')) throw new System.ArgumentException($"{path} is directory path.", nameof(path));
 
