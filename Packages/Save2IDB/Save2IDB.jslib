@@ -51,10 +51,10 @@ const Save2IDBPlugin = {
         
         callbackText: (callback, ohPtr, text) => {
             const buffer = new TextEncoder().encode(text + String.fromCharCode(0));
-            const textPtr = Module._malloc(buffer.length);
-            Module.HEAPU8.set(buffer, textPtr);
-            Module.dynCall_vii(callback, ohPtr, textPtr);
-            Module._free(textPtr);
+            const textPtr = _malloc(buffer.length);
+            HEAPU8.set(buffer, textPtr);
+            dynCall_vii(callback, ohPtr, textPtr);
+            _free(textPtr);
         }
     },
 
@@ -71,7 +71,7 @@ const Save2IDBPlugin = {
     },
 
     Save2IDB_ExportAllBytes: function (bytesPtr, bytesLen, filenamePtr, contentTypePtr) {
-        const buffer = Module.HEAPU8.subarray(bytesPtr, bytesPtr + bytesLen);
+        const buffer = HEAPU8.subarray(bytesPtr, bytesPtr + bytesLen);
         const filename = UTF8ToString(filenamePtr);
         const contentType = UTF8ToString(contentTypePtr);
 
